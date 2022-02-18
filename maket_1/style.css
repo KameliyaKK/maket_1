@@ -6,7 +6,6 @@ body {
 	font-size: 30px;
 }
 .container {
-	
 }
 .row {
 }
@@ -18,34 +17,31 @@ body {
 	align-items: center;
 	margin-bottom: 50px;
 }
-.logo{
+.logo {
 	padding: 20px 0px 20px 0px;
 }
 
-.hero img {
-	max-width: 100%;
-	height: 100%;
-	padding: 25px 0px 0px 0px;
-	object-fit:cover;
-	object-position: 0 0;
-}
 .hero {
 	min-height: 475px;
 	background: #c4c4c4;
 	margin-bottom: 75px;
+	text-align: center;
 }
-
-.three{
+.hero img {
+	max-width: 100%;
+	height: 100%;
+	padding: 25px 0px 0px 0px;
+	object-fit: cover;
+	/* object-position: 0 0; */
+}
+.three {
 	min-height: 220px;
-	margin-bottom:30px;
+	margin-bottom: 30px;
 }
 
-.col-4 {
-		
-}
 
 .block {
-	padding:30px;
+	padding: 30px;
 	text-align: center;
 	height: 100%;
 }
@@ -68,13 +64,14 @@ body {
 }
 
 p {
-	padding:30px;
-}
-.indent{
+	padding: 30px;
 	
 }
+.indent {
+	margin: 0px 0px 105px 0px;
+}
 .text {
-		font-family: Montserrat;
+	font-family: Montserrat;
 	font-weight: 400;
 	font-size: 12px;
 	line-height: calc(15 / 12 * 100%);
@@ -87,9 +84,11 @@ p {
 	background: #000000;
 }
 
+.menu{
+	padding: 47px 0px 0px 107px;
+}
 .col-1 {
 	min-height: 15px;
-	
 }
 .text_white {
 	font-family: Montserrat;
@@ -98,7 +97,7 @@ p {
 	line-height: calc(15 / 12 * 100%);
 	color: #fff;
 	padding: 47px 94px 0px 107px;
+
 }
-@media (max-width:1200){
-	
+@media (max-width: 1200) {
 }
